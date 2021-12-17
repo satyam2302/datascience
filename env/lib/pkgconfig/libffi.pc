@@ -1,0 +1,11 @@
+prefix=/Users/satyammalhotra/Desktop/ds_try/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/satyammalhotra/Desktop/ds_try/env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

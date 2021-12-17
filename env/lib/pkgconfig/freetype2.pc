@@ -1,0 +1,14 @@
+prefix=/Users/satyammalhotra/Desktop/ds_try/env
+exec_prefix=/Users/satyammalhotra/Desktop/ds_try/env
+libdir=/Users/satyammalhotra/Desktop/ds_try/env/lib
+includedir=/Users/satyammalhotra/Desktop/ds_try/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/satyammalhotra/Desktop/ds_try/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
